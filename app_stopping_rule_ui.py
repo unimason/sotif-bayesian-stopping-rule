@@ -11,7 +11,7 @@ from reliability.stopping_rule import (
 # Streamlit UI
 # -------------------------
 st.set_page_config(page_title="Bayesian Stopping Rule (Poisson–Gamma)", layout="wide")
-st.title("Bayesian Stopping Rule — Table + Curves + Accident → Extra Time")
+st.title("Bayesian Stopping Rule")
 
 with st.sidebar:
     st.header("Reliability Requirement")
